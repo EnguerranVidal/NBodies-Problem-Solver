@@ -1,0 +1,2 @@
+# NBodies Problem Solver
+ This project vows to achive the creation of a physics simulation of the solution for the N-Bodies problem. The main Python class will choose a randomized distribution of massive bodies and will let them evolve, calculating their positions at the next time-step using the Barnes-Hut method in 2D or in 3D. This verison of the project is currently using Numpy elements but does not use it to calculate the next time-step positions. I will work in an optimized version in the future using Numpy and Cupy in order to get GPU-driven calculations. 
